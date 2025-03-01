@@ -8,6 +8,7 @@ using Reactor.Networking;
 using Reactor.Utilities;
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using Il2CppInterop.Runtime.InteropTypes.Arrays;
 
 namespace BlackStone;
 
@@ -24,6 +25,8 @@ public partial class BlackStonePlugin : BasePlugin
     public override void Load()
     {
         //  ConfigName = Config.Bind("Fake", "Name", ":>");
+        BlackStone.AnnouncementPatch.GetAnnouncements();
+        ServerManager.DefaultRegions = new Il2CppReferenceArray<IRegionInfo>(new IRegionInfo[0]); // remove non modded lol
         Harmony.PatchAll();
         Blackstone.loadSceneHook();
     }

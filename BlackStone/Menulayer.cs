@@ -8,6 +8,8 @@ using TMPro;
 using UnityEngine;
 using Object = UnityEngine.Object;
 using static UnityEngine.UI.Button;
+using BlackStone;
+using AmongUs.Data.Player;
 // FROM TOWN OF HOST ENHANCED: https://github.com/EnhancedNetwork/TownofHost-Enhanced
 [HarmonyPatch(typeof(MainMenuManager))]
 public static class MainMenuManagerPatch
