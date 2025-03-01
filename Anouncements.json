@@ -1,13 +1,24 @@
 {
+  "2": {
+      "Title" : "Shouldbeontop",
+      "Id" : "Blackstone2",
+      "Language" : 1,
+      "SubTitle" : "Shouldbeontop",
+      "Number" : 1,
+      "PinState" : false,
+      "Date" : "1.1.1.1",
+      "ShortTitle" : "Shouldbeontop",
+      "Text" : "Shouldbeontop test"
+  },
   "1": {
-    "Title": "Test",
-    "Id": "Blackstone.Test",
-    "Language": 1,
-    "SubTitle": "Test",
-    "Number": 2,
-    "PinState": false,
-    "Date": "September 11 2001",
-    "ShortTitle": "Uh oh",
-    "Text": "The second tower was hi-"
+      "Title" : "Thanks for using Blackstone",
+      "Id" : "BlackstoneWelcome",
+      "Language" : 1,
+      "SubTitle" : "Welcome",
+      "Number" : 1,
+      "PinState" : false,
+      "Date" : "March 1 2025",
+      "ShortTitle" : "Blackstone",
+      "Text" : "Thank you for installing blackstone!\nBlackstone updates will be how me/the blackstone team feel\nfeel free to suggest ideas and report bugs on Github"
   }
 }
